@@ -1,0 +1,56 @@
+﻿<Window x:Class="Pokemon_catch_rate_calculator.MainWindow"
+        x:Name="WindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pokemon_catch_rate_calculator"
+        mc:Ignorable="d"
+        Title="Pokemon catch rate calculator" Height="600" Width="800">
+
+    <Grid>
+
+
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="10,28,0,0" TextWrapping="Wrap" Text="Pokemon" VerticalAlignment="Top" Width="121"/>
+        <ComboBox Name="PkmnSelectCombo" Margin="5,50,0,488" HorizontalAlignment="Left" Width="252" ItemsSource="{Binding PokemonList}" SelectedItem="{Binding PokemonClass}" DisplayMemberPath="pkmnName"/>
+        <TextBlock Text="Name: " Margin="5,150,525,390"><Run Text="{Binding PokemonClass.pkmnName}"/></TextBlock>
+        <TextBlock Text="Base Health: " Margin="5,202,525,337"><Run Text="{Binding PokemonClass.baseHealth}"/></TextBlock>
+        <TextBlock Text="Catch Rate: " Margin="5,255,525,284"><Run Text="{Binding PokemonClass.catchRate}"/></TextBlock>
+
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="262,28,0,0" TextWrapping="Wrap" Text="Pokemon Level" VerticalAlignment="Top" Width="125"/>
+        <DockPanel VerticalAlignment="Top" Margin="262,50,279,0">
+            <TextBox Text="{Binding ElementName=PkmnLevelSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40"/>
+            <Slider Name="PkmnLevelSlider" HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="190" Minimum="1" Maximum="100" TickFrequency="1" IsSnapToTickEnabled="True"/>
+        </DockPanel>
+
+
+
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="520,28,0,0" TextWrapping="Wrap" Text="Ball Type" VerticalAlignment="Top" Width="91"/>
+        <ComboBox Name="BallSelectCombo" Margin="520,50,0,488" HorizontalAlignment="Left" Width="262" ItemsSource="{Binding BallList}" SelectedItem="{Binding BallClass}" DisplayMemberPath="ballName"/>
+        <TextBlock Text="Name: " Margin="520,150,10,390"><Run Text="{Binding BallClass.ballName}"/></TextBlock>
+        <TextBlock Text="Catch Bonus: " Margin="520,202,10,337"><Run Text="{Binding BallClass.catchBonus}"/></TextBlock>
+
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="262,88,0,0" TextWrapping="Wrap" Text="Own Pokemon Level" VerticalAlignment="Top" Width="125"/>
+        <DockPanel Name="PkmnDock" VerticalAlignment="Top" Margin="262,110,279,0" Visibility="Hidden">
+            <TextBox Text="{Binding ElementName=OwnPkmnLevelSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40"/>
+            <Slider Name="OwnPkmnLevelSlider" HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="190" Minimum="1" Maximum="100" TickFrequency="1" IsSnapToTickEnabled="True"/>
+        </DockPanel>
+
+        <Button Name="CatchCalculator" Content="Calculate" HorizontalAlignment="Left" Height="66" Margin="323,344,0,0" VerticalAlignment="Top" Width="118" PreviewMouseUp="recalcButton"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="0,415,0,0" TextWrapping="Wrap" Text="Full health, no sleep" VerticalAlignment="Top" Width="150"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="179,415,0,0" TextWrapping="Wrap" Text="Full health, sleep" VerticalAlignment="Top" Width="150"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="395,415,0,0" TextWrapping="Wrap" Text="1 health, no sleep" VerticalAlignment="Top" Width="150"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="594,415,0,0" TextWrapping="Wrap" Text="1 health, sleep" VerticalAlignment="Top" Width="150"/>
+
+
+        <TextBlock Name="CatchRateInitial" HorizontalAlignment="Left" Height="70" Margin="10,490,0,0" TextWrapping="Wrap" Text="0.00%" VerticalAlignment="Top" Width="150"/>
+        <TextBlock Name="CatchRateSleep" HorizontalAlignment="Left" Height="70" Margin="179,490,0,0" TextWrapping="Wrap" Text="0.00%" VerticalAlignment="Top" Width="150"/>
+        <TextBlock Name="CatchRate1HP" HorizontalAlignment="Left" Height="70" Margin="395,490,0,0" TextWrapping="Wrap" Text="0.00%" VerticalAlignment="Top" Width="150"/>
+        <TextBlock Name="CatchRate1HPSleep" HorizontalAlignment="Left" Height="70" Margin="594,490,0,0" TextWrapping="Wrap" Text="0.00%" VerticalAlignment="Top" Width="150"/>
+
+
+
+    </Grid>
+
+</Window>

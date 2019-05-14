@@ -1,0 +1,30 @@
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\bin\Debug\Pokemon catch rate calculator.exe.config
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\bin\Debug\Pokemon catch rate calculator.exe
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\bin\Debug\Pokemon catch rate calculator.pdb
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\App.g.cs
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator_MarkupCompile.cache
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator_MarkupCompile.lref
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\MainWindow.baml
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.g.resources
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon_catch_rate_calculator.Properties.Resources.resources
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.csproj.GenerateResource.Cache
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.exe
+C:\Users\Ryan\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.pdb
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\bin\Debug\Pokemon catch rate calculator.exe.config
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\bin\Debug\Pokemon catch rate calculator.exe
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\bin\Debug\Pokemon catch rate calculator.pdb
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.csprojAssemblyReference.cache
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\MainWindow.g.cs
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\App.g.cs
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator_MarkupCompile.cache
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator_MarkupCompile.lref
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\MainWindow.baml
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.g.resources
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon_catch_rate_calculator.Properties.Resources.resources
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.csproj.GenerateResource.cache
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.csproj.CoreCompileInputs.cache
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.exe
+C:\Users\rcjon\Documents\Work\Summer Work\Pokemon catch rate calculator\Pokemon catch rate calculator\obj\Debug\Pokemon catch rate calculator.pdb
